@@ -1,32 +1,32 @@
 name: Build from tarball
 
 on:
-  pull_request:
-    types: [opened, synchronize, reopened, ready_for_review]
-    paths-ignore:
-      - '**.md'
-      - '**.nix'
-      - eslint.config.mjs
-      - '**/eslint.config_partial.mjs'
-      - android-configure
-      - android-configure.py
-      - android-patches/**
-      - benchmarks/**
-      - codecov.yml
-      - doc/**
-      - pyproject.yml
-      - tsconfig.json
-      - test/internet/**
-      - tools/actions/**
-      - tools/dep_updaters/**
-      - tools/doc/**
-      - tools/eslint-rules/**
-      - tools/eslint/**
-      - tools/lint-md/**
-      - typings/**
-      - vcbuild.bat
-      - .**
-      - '!.github/workflows/build-tarball.yml'
+  # pull_request:
+    # types: [opened, synchronize, reopened, ready_for_review]
+    # paths-ignore:
+      # - '**.md'
+      # - '**.nix'
+      # - eslint.config.mjs
+      # - '**/eslint.config_partial.mjs'
+      # - android-configure
+      # - android-configure.py
+      # - android-patches/**
+      # - benchmarks/**
+      # - codecov.yml
+      # - doc/**
+      # - pyproject.yml
+      # - tsconfig.json
+      # - test/internet/**
+      # - tools/actions/**
+      # - tools/dep_updaters/**
+      # - tools/doc/**
+      # - tools/eslint-rules/**
+      # - tools/eslint/**
+      # - tools/lint-md/**
+      # - typings/**
+      # - vcbuild.bat
+      # - .**
+      # - '!.github/workflows/build-tarball.yml'
   push:
     branches:
       - main

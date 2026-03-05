@@ -2,8 +2,8 @@ name: Comment on issues and PRs when labeled
 on:
   issues:
     types: [labeled]
-  pull_request_target:
-    types: [labeled]
+  # pull_request_target:
+    # types: [labeled]
 
 env:
   STALE_MESSAGE: >
